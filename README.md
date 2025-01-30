@@ -1,5 +1,5 @@
 # Expensive Processor
-
+Software used to slow down a processor's resources with an advanced cryptographic hashing algorithm.
 
 ## Building
 Run the Makefile in the root project directory.
