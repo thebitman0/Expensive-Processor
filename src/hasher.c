@@ -74,8 +74,7 @@ byte *generate_hash(void)
 
 void compute_cpu_resources(size_t n) 
 {
-    size_t o_n = n;
-    for (size_t i = 0; i < o_n; i++) 
+    for (size_t i = 0; i < n; i++) 
     {
         byte *digest = generate_hash();
 
@@ -87,7 +86,6 @@ void compute_cpu_resources(size_t n)
         putchar('\n');
 
         free(digest);
-        n *= 2;
     }
 }
 
